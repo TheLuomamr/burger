@@ -1,0 +1,17 @@
+.jumbotron{
+    background-color: rgb(247, 214, 31);
+    padding: 0
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 50px;
+    background-color: rgb(219, 219, 219)
+}
+button{
+    background-color: rgb(131, 224, 131);
+    height: 30px;
+}
+#add{
+    border: black 1px solid;
+    background-color: rgb(247, 214, 31);
+}

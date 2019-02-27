@@ -2,6 +2,7 @@
   <div class="container text-center">
     <h1 class="display-4">Eat The Burger</h1>
     <p class="lead">Create a burger and devour it!</p>
+    <img src="http://clipart-library.com/img1/1241302.png" height="150" width="150">
   </div>
 </div>
 
@@ -14,8 +15,8 @@
                     {{#unless devoured}}
                         <li>
                             <p>{{this.id}}. {{this.burger_name}}
-                                <button type="button" class="change-devoured btn btn-primary" data-id="{{id}}" data-newdevoured="{{devoured}}">Devour It!</button>
-                                <button class="delete-burger btn btn-danger" data-id="{{this.id}}">DELETE!</button>
+                                <button type="button" class="change-devoured btn" data-id="{{id}}" data-newdevoured="{{devoured}}">Devour It!</button>
+                                <button class="delete-burger btn" data-id="{{this.id}}">DELETE!</button>
                             </p>
                         </li>
                     {{/unless}}
@@ -38,7 +39,7 @@
     </div>
 </div>
 
-<div class="container mt-3">
+<div class="container mt-3" id="add">
     <div class="row justify-content-center">
         <div class="column">
            <u><h2>Add a Burger</h2></u>
@@ -47,7 +48,7 @@
                     <label for="burg">Burger Name:</label>
                     <input type="text" id="burg" name="name">
                 </div> 
-                <button type="submit" class="btn btn-info">Add Burger</button>
+                <button type="submit" class="btn">Add Burger</button>
             </form>
         </div>
     </div>
